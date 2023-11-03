@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:'/MontanesService/',
+  base:'https://simon86000s.github.io/MontanesService',
   plugins: [react()],
 })
