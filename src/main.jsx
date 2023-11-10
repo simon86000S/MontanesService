@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import './App.scss'
+
 import Contact from '../src/Pages/Contact/Contact'
 import Cleaning_service from '../src/Pages/Cleaning_service/Cleaning_service';
 import GreenSpaceService from '../src/Pages/GreenSpaceService/GreenSpaceService'
