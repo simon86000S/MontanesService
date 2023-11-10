@@ -8,7 +8,7 @@ import arbres from "../../assets/arbres.png";
 import nav_garden from "../../assets/nav_garden.jpg";
 import Button_Contact from "../../components/Header/Button_Contact";
 import tonte from '../../assets/tonte.jpg';
-import logoM from '../../assets/logo.png';
+import logoM from '../../assets/Logo.png';
 import L from '../../assets/composte.png'
 
 
