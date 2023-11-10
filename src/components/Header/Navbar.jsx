@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/Logo.png";
-import Button from "./Button";
+import Button_Contact from "./Button_Contact";
 import NavLinks from "./MenuItems";
 import Landing from "../Landing/Landing";
 import taille from "../../assets/taille.mp4";
@@ -64,9 +64,7 @@ const Navbar = () => {
             Contact
           </Link>
         </ul>
-        <div className="md:block hidden">
-          <Button />
-        </div>
+       
         {/* Mobile nav */}
 
         <ul
@@ -99,9 +97,7 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
-          <div className="py-5">
-            <Button />
-          </div>
+       
         </ul>
       </div>
     </nav>

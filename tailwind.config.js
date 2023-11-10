@@ -17,6 +17,8 @@ export default {
         'home':"url('./assets/home.jpg')"
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 }
 }

@@ -14,7 +14,7 @@ import {
   Avatar,
   Tooltip,
 } from "@material-tailwind/react";
-import Generator from "./Generator";
+
 
 const Landing = () => {
   return (
@@ -85,7 +85,7 @@ const Landing = () => {
       
     </div>
 <Section/>
-<Generator/>
+
 <Footer/>
     </>
   );
