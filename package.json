@@ -22,7 +22,8 @@
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.16.0",
     "react-type-animation": "^3.2.0",
-    "sort-by": "^1.2.0"
+    "sort-by": "^1.2.0",
+    "taos": "^1.0.5"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.62",

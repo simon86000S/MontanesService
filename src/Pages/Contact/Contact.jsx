@@ -18,6 +18,7 @@ import { Switch } from '@headlessui/react'
 import { Navbar } from '@material-tailwind/react'
 import NavBar from '../../components/Header/Navbar'
 
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
@@ -92,7 +93,7 @@ export default function Example() {
               />
             </div>
           </div>
-          <div className="sm:col-span-2">
+          <div className="sm:col-span-2 ">
             <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900">
               Email
             </label>
@@ -191,6 +192,7 @@ export default function Example() {
         </div>
       </form>
     </div>
+
     </>
   )
 }

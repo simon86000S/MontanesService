@@ -1,8 +1,9 @@
-import React from "react";
+import React,{useEffect} from "react";
 import paysage from "../../assets/paysage.jpg";
 import { Link } from "react-router-dom";
 import Section from "./Section";
 import Footer from "../Footer/Footer";
+
 
 import "./Landing.scss";
 import {
@@ -17,9 +18,12 @@ import {
 
 
 const Landing = () => {
+
+  
   return (
     <>
     <div className=" h-screen flex justify-center   ">
+   
       <div className="md:flex w-full  ">
         <div className="  flex-1 flex  justify-center  w-full min-h-[50%]">
           <div className="flex flex-col">
@@ -36,11 +40,13 @@ const Landing = () => {
         </div>
         <div className=" flex-1 rounded-xl  min-h-[40%] ">
           <div className=" flex items-center flex-col ">
-            <h1 className=" text-black text-center text-4xl  pb-4">
+            <h1 className=" text-black text-center text-4xl  pb-4  ">
               Montanes Services
+             
             </h1>
+            
             <>
-              <Card className="max-w-[24rem] overflow-hidden bg-transparent shadow-2xl">
+              <Card className='max-w-[24rem] overflow-hidden bg-transparent shadow-2xl data-aos=fade-left '>
                 <CardHeader
                   floated={false}
                   shadow={false}
@@ -68,6 +74,7 @@ const Landing = () => {
                     Montanes Services situé à Poitiers, spécialisée dans les
                     espaces verts et le nettoyage de vitres. Nous assurons
                     l'entretien intérieur et extérieur.
+                    
                   </Typography>
                   <Link to="/Contact" className="relative text-center flex items-center text-black justify-center bg-slate-700  p-6 uppercase rounded-full  before:content-[''] before:absolute before:left:0 before:bg-black before:w-0 before:h-full before:transition-all duration-500 before:rounded-full hover:before:w-full before:bg-black before:opacity-30 hover: text-white ">
                     Contactez-Nous
@@ -75,11 +82,14 @@ const Landing = () => {
                 </CardBody>
                 <CardFooter className="flex items-center justify-between">
                   <div className="flex items-center -space-x-3"></div>
+                  
                 </CardFooter>
+                
               </Card>
               ;
             </>
           </div>
+          
         </div>
       </div>
       
