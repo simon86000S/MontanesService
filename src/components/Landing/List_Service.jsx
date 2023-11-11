@@ -1,3 +1,5 @@
+import Button_Contact from "../Header/Button_Contact"
+
 const callouts = [
 
 
@@ -51,6 +53,7 @@ const callouts = [
                   </h3>
                   <p className="text-base font-semibold text-gray-900">{callout.description} </p>
                   {callout.price} euros/heures
+                  <Button_Contact/>
                 </div>
               ))}
             </div>
