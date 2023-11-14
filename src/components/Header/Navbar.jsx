@@ -38,7 +38,7 @@ const Navbar = () => {
             className="md:  cursor-pointer h-24 w-21 h-14 "
           />
           <div
-            className="  z-50 p-[25px] text-3xl md:hidden"
+            className="  z-50 p-[25px] text-3xl md:hidden "
             onClick={() => setOpen(!open)}
           >
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
@@ -50,7 +50,7 @@ const Navbar = () => {
           }`}
         >
           <li className=" font-semibold text-blue-900 hover:text-sky-600">
-            <Link to="/" className="py-7 px-3 inline-block ">
+            <Link to="/" className="py-7 px-3 inline-block  ">
               Home
             </Link>
           </li>
@@ -59,7 +59,7 @@ const Navbar = () => {
 
           <Link
             to="/Contact"
-            className=" font-semibold text-blue-900 hover:text-sky-600 py-7 px-3 inline-block"
+            className="font-semibold text-blue-900 hover:text-sky-600 py-7 px-3 inline-block  "
           >
             Contact
           </Link>
@@ -74,7 +74,7 @@ const Navbar = () => {
         `}
         >
           <div
-            className=" z-50 text-3xl md:hidden cursor-pointer  flex justify-center"
+            className=" z-50 text-3xl md:hidden cursor-pointer  flex justify-center max-lg:text-white hover:text-blue-400"
             onClick={() => setOpen(!open)}
           >
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
@@ -83,7 +83,7 @@ const Navbar = () => {
           <li>
             <Link
               to="/"
-              className=" py-7 px-3 inline-block text-lg  hover:text-white"
+              className=" py-7 px-3 inline-block text-lg  hover:text-blue-400 max-lg:text-white"
             >
               Home
             </Link>
@@ -92,7 +92,7 @@ const Navbar = () => {
           <li>
             <Link
               to="/Contact"
-              className="  my-0 py-7 text-lg px-3 inline-block hover:text-white"
+              className="  my-0 py-7 text-lg px-3 inline-block hover:text-blue-400 max-lg:text-white"
             >
               Contact
             </Link>
