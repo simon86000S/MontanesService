@@ -12,7 +12,7 @@ const Section = () => {
       <div className="w-full ">
         <div className="flex flex-col items-center ">
           <img className="w-[10%] rounded-full " src={plantes}></img>
-          <h1 className="flex justify-center text-4xl text-white ">
+          <h1 id='title' className="flex justify-center text-4xl text-white ">
             Nos prestations
           </h1>
           <p className="text-white py-5 ">Envie de nos services ? nous sommes à votre écoute</p>

@@ -4,7 +4,7 @@ import List_service from "./List_Service";
 import Testimonal from "./Testimonal";
 const Landing_Service = () => {
   return (
-    <div className=''>
+    <div  >
       <div className="h-[100vh] bg-center bg-cover rounded-3xl bg-[url('https://images.pexels.com/photos/4239145/pexels-photo-4239145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] "></div>
 
       <div className="shadow-2xl">

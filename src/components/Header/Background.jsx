@@ -3,7 +3,7 @@ import taille from '../../assets/taille.mp4';
 
 const Background = () => {
   return (
-    <div>
+    <div id="Accueil">
        
         <video src= 
 {taille}

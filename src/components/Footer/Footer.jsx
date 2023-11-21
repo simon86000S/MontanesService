@@ -14,11 +14,11 @@ const Footer = () => {
             </h1>
           
             <li className=" p-2 ease-in-out duration-300 hover:text-white cursor-pointer">
-            <Link to="/">Accueil</Link>
+            <a href="#Accueil">Accueil</a>
             
             </li>
             <li className=" p-2 ease-in-out duration-300  hover:text-white cursor-pointer">
-            Prestations
+           <a href='#title'>Prestations</a>
             </li>
           </ul>
         </nav>
