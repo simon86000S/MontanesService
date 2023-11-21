@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="mt-[25px]  ">
-      <div className="  h-[80vh] bg-gray-800 flex justify-around pt-[25%] text-zinc-400 max-sm:block ">
+      <div className=" items-center h-[80vh] bg-gray-800 flex justify-around  text-zinc-400 max-sm:block    ">
         <nav className="   items-center max-sm:flex justify-center items-center text-center ">
           <ul className="flex flex-col text-lg max-sm:mb-10   ">
             <h1 className="relative text-2xl  text-white before:content-['']   before:absolute before:-bottom-1  before:bg-white before:h-0.5 before:w-6/12 md:before:left-5 max-sm:before:w-2/12 before:left-12 ">
