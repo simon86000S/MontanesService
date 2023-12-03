@@ -28,7 +28,7 @@ const Landing = () => {
         <div className="  flex-1 flex  justify-center  w-full min-h-[50%]">
           <div className="flex flex-col">
             <div className="relative clip -my-8 flex   ">
-              <h1 className=" flex p-7  text-2xl leading-10 text-center font-['Kristi']  text-zinc-400 uppercase ">
+              <h1 className=" flex p-7  text-2xl leading-10 text-center font-['Kristi']  text-zinc-400 uppercase max-sm:text-[17px]">
                 Entreprise service paysagers et de Nettoyage
               </h1>
               <img
@@ -69,7 +69,7 @@ const Landing = () => {
                   <Typography
                     variant="lead"
                     color="gray"
-                    className="mt-3 font-normal p-5"
+                    className="mt-3 font-normal p-5 max-sm:text-[17px]"
                   >
                     Montanes Services situé à Poitiers, spécialisée dans les
                     espaces verts et le nettoyage de vitres. Nous assurons
