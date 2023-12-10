@@ -19,7 +19,7 @@ const GreenSpaceService = () => {
   }, []);
 
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <div>
         <Navbar />
       </div>
