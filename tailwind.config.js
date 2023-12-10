@@ -8,7 +8,7 @@ export default {
     fontFamily: {
       'sans': ['Homemade Apple', ' cursive', ],
       'sans-serif':['Gruppo', 'sans-serif'],
-      'sans':['Kristi', 'cursive'],
+      
 
     },
     extend: {
