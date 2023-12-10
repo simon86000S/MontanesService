@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'sans': ['Homemade Apple', ' cursive', ],
+      'sans': ['Courier Prime', 'monospace' ]
       
       
 

@@ -8,7 +8,7 @@ const App = () => {
     AOS.init({duration:1500})
   }, [])
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Home/>
     </div>
   )
