@@ -6,8 +6,8 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'sans': ['Homemade Apple', ' cursive', ],
-      'sans-serif':['Gruppo', 'sans-serif'],
+      'sans': ['Courier Prime', 'monospace' ]
+      
       
 
     },
