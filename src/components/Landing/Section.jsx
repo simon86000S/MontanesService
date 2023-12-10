@@ -10,7 +10,7 @@ const Section = () => {
   return (
     <div className=" flex  w-full bg-slate-800 max-md:mt-[100%] md:mt-[10%] ">
       <div className="w-full ">
-        <div className="flex flex-col items-center ">
+        <div className="flex flex-col items-center " data-aos="fade-up">
           <img className="w-[10%] rounded-full " src={plantes}></img>
           <h1 id='title' className="flex justify-center text-4xl text-white ">
             Nos prestations
@@ -21,7 +21,8 @@ const Section = () => {
                   </Link>
         </div>
         <div className="md:flex justify-between pl-5 text-zinc-400 mt-20   ">
-          <div className=" flex-1 h-3/6 bg-gray-700 rounded-3xl p-4 w-[95%] max-sm:mb-4 ">
+          <div className=" flex-1 h-3/6 bg-gray-700 rounded-3xl p-4 w-[95%] max-sm:mb-4 " data-aos="fade-right"
+          >
             <h1 className="p-4 underline decoration-1 text-2xl text-center ">Service de Nettoyage</h1>
 
             <img className="w-[85%] rounded-s-full p-3   " src={cleaning}></img>
@@ -35,7 +36,7 @@ const Section = () => {
               <strong className="text-white">Nettoyage de sol:</strong> Nous utilisons des produits et des méthodes respectueux de la nature dans nos services. Nous favorisons l'utilisation de produits biologiques. 
             </p>
           </div>
-          <div className=" flex-1 h-3/6 bg-gray-700 rounded-3xl p-4 my:0 w-[95%]  md:ml-4  max-sm:mb-4  ">
+          <div className=" flex-1 h-3/6 bg-gray-700 rounded-3xl p-4 my:0 w-[95%]  md:ml-4  max-sm:mb-4" data-aos="fade-left">
             <h1 className="p-4 underline decoration-1 text-2xl text-center ">Service Paysagers</h1>
  
             <img className="w-[85%] rounded-e-full p-3 " src={garden}></img>

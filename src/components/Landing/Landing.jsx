@@ -20,6 +20,7 @@ import {
 const Landing = () => {
 
   
+  
   return (
     <>
     <div className=" h-screen flex justify-center   ">
@@ -28,11 +29,11 @@ const Landing = () => {
         <div className="  flex-1 flex  justify-center  w-full min-h-[50%]">
           <div className="flex flex-col">
             <div className="relative clip -my-8 flex   ">
-              <h1 className=" flex p-7  text-2xl leading-10 text-center font-['Kristi']  text-zinc-400 uppercase max-sm:text-[17px]">
+              <h1 className=" flex p-7  text-2xl leading-10 text-center font-['Kristi']  text-zinc-400 uppercase max-sm:text-[17px]" data-aos="fade-up">
                 Entreprise service paysagers et de Nettoyage
               </h1>
               <img
-                className="rounded-full w-[85%] absolute left-8 bottom-0 -z-20"
+                className="rounded-full w-[85%] absolute left-8 bottom-0 -z-20 " 
                 src={paysage}
               ></img>
             </div>
@@ -46,12 +47,13 @@ const Landing = () => {
             </h1>
             
             <>
-              <Card className='max-w-[24rem] overflow-hidden bg-transparent shadow-2xl data-aos=fade-left '>
+              <Card className='max-w-[24rem] overflow-hidden bg-transparent shadow-2xl  ' data-aos="fade-left"
+     >
                 <CardHeader
                   floated={false}
                   shadow={false}
                   color="transparent"
-                  className="m-0 rounded-none"
+                  className="m-0 rounded-none "  
                 >
                   <img
                     src="https://images.pexels.com/photos/5673488/pexels-photo-5673488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -60,7 +62,7 @@ const Landing = () => {
                 </CardHeader>
                 <CardBody>
                   <Typography
-                    className="text-center"
+                    className="text-center " 
                     variant="h4"
                     color="blue-gray"
                   >
