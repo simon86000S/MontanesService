@@ -33,7 +33,7 @@ const Section = () => {
               et sans traces.
             </p>
             <p className="leading-8 py-3 w-[80%]">
-              <strong className="text-white">Nettoyage de sol:</strong> Nous utilisons des produits et des méthodes respectueux de la nature dans nos services. Nous favorisons l'utilisation de produits biologiques. 
+              <strong className="text-white">Nettoyage de sol:</strong><br></br> Nous utilisons des produits et des méthodes respectueux de la nature dans nos services. Nous favorisons l'utilisation de produits biologiques. 
             </p>
           </div>
           <div className=" flex-1 h-3/6 bg-gray-700 rounded-3xl p-4 my:0 w-[95%]  md:ml-4  max-sm:mb-4" data-aos="fade-left">
@@ -42,7 +42,7 @@ const Section = () => {
             <img className="w-[85%] rounded-e-full p-3 " src={garden}></img>
             <h2 className="text-xl  pb-5" >Services proposés :</h2>
             <p className="leading-8  w-[80%]">
-            <strong className="text-white">Entretien des espaces verts :</strong> Nous proposons une gamme complète de services pour l'entretien des espaces extérieurs, y compris la tonte de gazon, la taille des arbres et arbustes, l'élagage, la plantation de fleurs et d'arbres, l'arrosage, la gestion des déchets verts, et bien plus encore.
+            <strong className="text-white">Entretien des espaces verts :</strong><br></br> Nous proposons une gamme complète de services pour l'entretien des espaces extérieurs, y compris la tonte de gazon, la taille des arbres et arbustes, l'élagage, la plantation de fleurs et d'arbres, l'arrosage, la gestion des déchets verts, et bien plus encore.
             </p>
             <p className=" text-white leading-8  w-[80%]">
                 <p>-Débroussaillage</p>
@@ -52,7 +52,7 @@ const Section = () => {
                 
             </p>
             <p className="leading-8  w-[80%]">
-            <strong className="text-white">Gestions et évacuations des déchets:</strong>  Nous valorisons les déchets de bois vert, comme de bois mort issus de la taille et de l'élagage, pour être réduits en copeaux et etre utilisés en broyat.
+            <strong className="text-white">Gestions et évacuations des déchets:</strong> <br></br> Nous valorisons les déchets de bois vert, comme de bois mort issus de la taille et de l'élagage, pour être réduits en copeaux et etre utilisés en broyat.
             </p>
           </div>
         </div>

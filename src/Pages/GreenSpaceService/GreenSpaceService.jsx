@@ -24,7 +24,7 @@ const GreenSpaceService = () => {
         <Navbar />
       </div>
       <div className="ml-[40px] pl-10 rounded-full flex flex-row justify-between my-10 bg-lime-100 shadow-2xl h-[80vh] w-[90%] max-sm: ">
-        <div className=" bg-fixed m-10 rounded-full flex-1 h-[70vh] bg-left -mt-4  bg-contain bg-[url('https://cdn.pixabay.com/photo/2017/03/22/10/58/fairy-2164607_1280.png')] max-sm:bg-[url('https://images.pexels.com/photos/3571551/pexels-photo-3571551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')]"></div>
+        <div className=" bg-fixed m-10 rounded-full flex-1 h-[70vh] bg-left -mt-4  bg-contain bg-[url('https://cdn.pixabay.com/photo/2017/03/22/10/58/fairy-2164607_1280.png')] max-sm:bg-[url('https://images.pexels.com/photos/3571551/pexels-photo-3571551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] "></div>
         <div className="flex-1  pt-10 ">
           <div className="m-0 p-4 ">
             <h1 className="text-4xl max-sm:flex max-sm:justify-left">
@@ -41,8 +41,8 @@ const GreenSpaceService = () => {
         </div>
       </div>
       <div className="  ">
-        <div className="flex items-center justify-center" data-aos="fade-up">
-          <img className="w-[10%] h-[10%]" src={logoM}></img>
+        <div className="flex items-center justify-center" >
+          <img className="w-[10%] h-[10%]" src={logoM} data-aos="fade-up"></img>
           <h1 className="text-center text-4xl text-gray-800 ">
             Montanes Services
           </h1>
@@ -84,7 +84,7 @@ const GreenSpaceService = () => {
           <div className="bg-lime-100 shadow-2xl rounded-xl ">
             <div className="flex items-center justify-center">
               <img className="w-[5%] h-[5%] max-sm:w-[20%]" src={L}></img>
-              <h1 className="flex  text-2xl  p-5" data-aos="fade-up">
+              <h1 className="flex  text-2xl  p-5" data-aos="fade-right">
                 Donnez vie à vos rêves de jardin avec nos experts en espaces
                 verts
               </h1>

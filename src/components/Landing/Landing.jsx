@@ -29,7 +29,7 @@ const Landing = () => {
         <div className="  flex-1 flex  justify-center  w-full min-h-[50%]">
           <div className="flex flex-col">
             <div className="relative clip -my-8 flex   ">
-              <h1 className=" flex p-7  text-2xl leading-10 text-center font-['Kristi']  text-zinc-400 uppercase max-sm:text-[17px]" data-aos="fade-up">
+              <h1 className=" flex p-7  text-2xl leading-10 text-center font-['Kristi']  text-zinc-400 uppercase max-sm:text-[17px]">
                 Entreprise service paysagers et de Nettoyage
               </h1>
               <img
@@ -41,13 +41,13 @@ const Landing = () => {
         </div>
         <div className=" flex-1 rounded-xl  min-h-[40%] ">
           <div className=" flex items-center flex-col ">
-            <h1 className=" text-black text-center text-4xl  pb-4  ">
+            <h1 className=" text-black text-center text-4xl  pb-4   "  >
               Montanes Services
              
             </h1>
             
             <>
-              <Card className='max-w-[24rem] overflow-hidden bg-transparent shadow-2xl  ' data-aos="fade-left"
+              <Card className='max-w-[24rem] overflow-hidden bg-transparent shadow-2xl  ' data-aos="fade-up"
      >
                 <CardHeader
                   floated={false}
