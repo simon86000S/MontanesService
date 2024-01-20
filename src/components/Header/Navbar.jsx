@@ -35,7 +35,7 @@ const Navbar = () => {
           <img
             src={Logo}
             alt="logo"
-            className="md:  cursor-pointer h-24 w-21 h-14 "
+            className="md:  cursor-pointer w-21 h-14 "
           />
           <div
             className="  z-50 p-[25px] text-3xl md:hidden "

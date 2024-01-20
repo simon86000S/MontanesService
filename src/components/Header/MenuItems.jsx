@@ -11,7 +11,7 @@ const NavLinks = () => {
         <div>
           <div className="px-3 text-left md:cursor-pointer group   ">
             <h1
-              className="  text-lg text-blue-900 font-semibold hover:text-sky-600  py-7 flex justify-between items-center md:pr-0 pr-5 group cursor-pointer max-[600px]:hover:text-sky-400  duration-300 ease-in-out  font-normal max-md:text-white "
+              className="  text-lg text-blue-900 font-semibold hover:text-sky-600  py-7 flex justify-between items-center md:pr-0 pr-5 group cursor-pointer max-[600px]:hover:text-sky-400  duration-300 ease-in-out  max-md:text-white "
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
