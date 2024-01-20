@@ -25,7 +25,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav  className=" sticky top-0 md: z-50 relative ">
+    <nav  className=" sticky top-0 md: z-50  ">
       <div
         className={`md:  bg-transparent shadow-2xl flex items-center font-medium justify-around ${
           changeMenus && "bg-slate-700 w-full z-50  "
