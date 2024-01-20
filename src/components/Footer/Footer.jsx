@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="mt-[25px]  ">
       <div className=" items-center h-[80vh] bg-gray-800 flex justify-around  text-zinc-400 max-sm:block    ">
-        <nav className="   items-center max-sm:flex justify-center items-center text-center ">
+        <nav className="   max-sm:flex justify-center items-center text-center ">
           <ul className="flex flex-col text-lg max-sm:mb-10   ">
             <h1 className="relative text-2xl  text-white before:content-['']   before:absolute before:-bottom-1  before:bg-white before:h-0.5 before:w-6/12 md:before:left-5 max-sm:before:w-2/12 before:left-12 " data-aos="fade-right">
               Menu
@@ -35,7 +35,7 @@ const Footer = () => {
           </ul>
         </nav>
         <div className="flex items-center max-sm:flex  flex-col">
-          <h1 className=" max-sm:flex justify-center items-center before:w-2/12 before:l-0   relative text-2xl  text-white before:content-[''] before:absolute before:-bottom-1 before:bg-black before:h-0.5 before:w-6/12 before:bg-white " data-aos="fade-left">
+          <h1 className=" max-sm:flex justify-center items-center before:l-0   relative text-2xl  text-white before:content-[''] before:absolute before:-bottom-1 before:bg-black before:h-0.5 before:w-6/12 before:bg-white " data-aos="fade-left">
             Nos coordonnées
           </h1>
           <h1 className="max-sm:flex justify-center p-2 text-lg ">

@@ -25,7 +25,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav  className=" sticky top-0 md: z-50  ">
+    <nav className=" sticky top-0 md: z-50  ">
       <div
         className={`md:  bg-transparent shadow-2xl flex items-center font-medium justify-around ${
           changeMenus && "bg-slate-700 w-full z-50  "
@@ -64,12 +64,12 @@ const Navbar = () => {
             Contact
           </Link>
         </ul>
-       
+
         {/* Mobile nav */}
 
         <ul
           className={`
-        md:hidden z-50 bg-black fixed w-full top-0 overflow-y-auto bottom-0 py-14 pl-4 bg-slate-700 flex justify-center flex-col items-center
+        md:hidden z-50 fixed w-full top-0 overflow-y-auto bottom-0 py-14 pl-4 bg-slate-700 flex justify-center flex-col items-center
         duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
         >
@@ -97,7 +97,6 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
-       
         </ul>
       </div>
     </nav>
