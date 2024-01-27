@@ -5,7 +5,7 @@ import Testimonal from "./Testimonal";
 const Landing_Service = () => {
   const callouts = [
     {
-      name: "Lavage de sol et vitre",
+      name: "Lavage de sol",
       description:
         "package nettoyage vitre+sol avec des produits ecologique professionnelle.",
       imageSrc:
@@ -26,9 +26,9 @@ const Landing_Service = () => {
       href: "#",
     },
     {
-      name: "Lavage de sol",
+      name: "Décapage",
       description:
-        "Nettoyage de sol au karcher ou à la serpiére suivant le type de sol",
+        "Nettoyage de sol au karcher pour désincruster les taches",
       imageSrc:
         "https://img.freepik.com/photos-gratuite/personne-homme-affaires-debout-interieur-usine-generee-par-ia_24640-99794.jpg?w=1380&t=st=1699636408~exp=1699637008~hmac=d9b5bc07b7a30e05f69b9e81a4e2ce169d98db27d9b4947f73b883774695acab",
       imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
@@ -58,7 +58,7 @@ const Landing_Service = () => {
       </div>
       <div>
         <div>
-          <h1 className="text-center  text-4xl text-blue-800">Prestations</h1>
+          <h1 className="text-center  text-5xl text-blue-800">Prestations</h1>
           {callouts.map((callout) => (
             <List_service
               name={callout.name}

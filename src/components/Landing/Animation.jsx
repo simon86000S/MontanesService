@@ -3,7 +3,7 @@ import React from 'react';
 
  export const Animation = () => {
   return (
-    <TypeAnimation
+    <TypeAnimation className='text-blue-600 justify-center items-center text-center flex text-5xl '
       sequence={[
         // Same substring at the start will only be typed out once, initially
         'Montanes Services',
@@ -19,7 +19,6 @@ import React from 'react';
       ]}
       wrapper="span"
       speed={50}
-      style={{ fontSize: '2em', display: 'flex',justifyContent: 'center',alignItem:'center',textAlign:'center',color:'blue' }}
       repeat={Infinity}
     />
   );

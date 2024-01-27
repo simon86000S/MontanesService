@@ -17,14 +17,15 @@ import Button_Contact from "../Header/Button_Contact"
                       className="h-full w-full object-cover object-center"
                     />
                   </div>
-                  <h3 className="mt-6 text-sm text-gray-500">
-                    <a href={lienList}>
-                      <span className="absolute inset-0" />
+                  <h3 className="mt-6 text-base text-gray-900 font-bold uppercase">
+                    <a  href={lienList}>
+                      <span className="absolute inset-0 " />
                       {name}
                     </a>
                   </h3>
-                  <p className="text-base font-semibold text-gray-900">{desc} </p>
-                  {price} euros/heures
+                  <p className="  text-gray-500">{desc} </p>
+                  <div className="text-gray-400">{price} euros/heures</div>
+                  
                   <Button_Contact title='Contactez-nous' lien='/Contact'/>
                 </div>
            
