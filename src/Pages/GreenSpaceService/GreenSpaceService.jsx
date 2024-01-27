@@ -35,7 +35,7 @@ const GreenSpaceService = () => {
           <span className="flex justify-center ">
             <AiOutlineArrowDown className="h-[35px] w-[45px]" />
           </span>
-          <div className=" h-full h-[80%] bg-center rounded-2xl ">
+          <div className="  h-[80%] bg-center rounded-2xl ">
             <img src={arbres}></img>
           </div>
         </div>
@@ -84,7 +84,7 @@ const GreenSpaceService = () => {
           <div className="bg-lime-100 shadow-2xl rounded-xl ">
             <div className="flex items-center justify-center">
               <img className="w-[5%] h-[5%] max-sm:w-[20%]" src={L}></img>
-              <h1 className="flex  text-2xl  p-5" data-aos="fade-right">
+              <h1 className="flex  text-2xl  p-5" data-aos="fade-up">
                 Donnez vie à vos rêves de jardin avec nos experts en espaces
                 verts
               </h1>
@@ -125,13 +125,13 @@ const GreenSpaceService = () => {
                 véhiculé avec remorque, je me déplace sur les communes
                 environnantes
                 (Buxerolles,Jaunay-Marigny,Saint-Benoît,Chauvigny,Migné-Auxances....)
-                et également sur Châtellerault. <Button_Contact />
+                et également sur Châtellerault. <Button_Contact title="Contactez-nous" lien="/Contact" />
               </p>
             </div>
           </div>
         </div>
       </div>
-      <div className=" h-[70vh] bg-cover bg-center bg-fixed -mt-4  bg-contain bg-[url('https://images.pexels.com/photos/589/garden-grass-meadow-green.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')]  relative before:content-['Transformez_votre_jardin_en_un_paradis_verdoyant_avec_notre_expertise_en_aménagement_paysager.'] before:absolute before:top-[30%] before:left-[20%] before:text-3xl before:text-lime-400 before:p-50 before:h-[40%] before:bg-black before:opacity-50  before:w-[60%] before:flex before:items-center before:text-center before:rounded-xl "></div>
+      <div className=" h-[70vh] bg-cover bg-center bg-fixed -mt-4  bg-[url('https://images.pexels.com/photos/589/garden-grass-meadow-green.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')]  relative before:content-['Transformez_votre_jardin_en_un_paradis_verdoyant_avec_notre_expertise_en_aménagement_paysager.'] before:absolute before:top-[30%] before:left-[20%] before:text-3xl before:text-lime-400 before:p-50 before:h-[60%] before:bg-black before:opacity-50  before:w-[60%] before:flex before:items-center before:text-center before:rounded-xl "></div>
 
       <div>
         <Footer />

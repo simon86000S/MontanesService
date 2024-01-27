@@ -68,7 +68,7 @@ export default function Example() {
           </div>
           <div className="sm:col-span-2">
             <label htmlFor="company" className="block text-sm font-semibold leading-6 text-gray-900">
-              Entreprise
+              Entreprise ou adresse
             </label>
             <div className="mt-2.5">
               <input
@@ -100,22 +100,7 @@ export default function Example() {
             </label>
             <div className="relative mt-2.5">
               <div className="absolute inset-y-0 left-0 flex items-center">
-                <label htmlFor="country" className="sr-only">
-                  Pays
-                </label>
-                <select
-                  id="country"
-                  name="country"
-                  className="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
-                >
-                  <option>US</option>
-                  <option>CA</option>
-                  <option>EU</option>
-                </select>
-                <ChevronDownIcon
-                  className="pointer-events-none absolute right-3 top-0 h-full w-5 text-gray-400"
-                  aria-hidden="true"
-                />
+              
               </div>
               <input
                 type="tel"

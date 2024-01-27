@@ -7,13 +7,10 @@ import Footer from '../../components/Footer/Footer';
 const Cleaning_service = () => {
   return (
     <div>
-      <Navbar/>
+    <Navbar/>
     <Landing_Service/>
-    <Footer/>
-     
-      
-    
-    </div>
+    <Footer />
+     </div>
   )
 }
 
